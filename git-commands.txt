@@ -1,0 +1,25 @@
+Git Commands:-
+
+1) git --version : This command helps us to know whether git is properly installed on operating system or not.This command basically tells the version of of git.
+
+2)git config : This command sets the configuration values for the username and email, like:-
+git config --global user.name "kriti-garg"   (for the name)
+git config --global user.email "kritigarg1998@gmail.com"   (for the email)
+
+3)git init : This command intialises a git repository with the intial .git directory.
+
+4)git add : This command is used to add files changes in working directory to the index, like:-
+git add hello-git
+
+5)git commit : This command is used to save the changes made in our repository.This is the staging area where we make the checkpoint and a give a name to it, like:-
+git commit -m "my first git commit"
+
+6)git remote add origin : It links your local repository with a remote repository. Local repository is on your machine. Remote repository is the central repository where people share the code. We also write the link of our git repository to add or save that link in origin, like:-
+git remote add origin https://github.com/kriti-garg/hello-git.git
+
+7)git push : Its syntax is: git push<remote><branch>.This command is used to push the code to the master branch of the remote repository and -u is used to point the current local branch to the remote master branch and after this your code is uploaded on github like:-
+git push -u origin master
+
+8)git log : this command is used to get the full information of the commit made.
+
+9)git status : this command is used to show the status of the files that is whether they are untracked,modified or staged.
